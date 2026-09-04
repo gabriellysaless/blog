@@ -1,0 +1,30 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    gap: 10px;
+}
+
+.container__link {
+    color: #FFCF01;
+}
+
+.container__link:hover {
+    color: #fc9c5d;
+}
+
+.container__title{
+    text-align: center;
+}
+
+
+.container__info{
+    color: #acacac;
+}
+
+.container__date{
+    color: #acacac;
+    font-size: .8rem;
+}
