@@ -24,7 +24,6 @@ O projeto foi desenvolvido como exercício prático para consolidar conceitos av
 * ⚡ Renderização utilizando Server Components.
 * 🔍 SEO dinâmico com `generateMetadata`.
 * 📱 Layout responsivo.
-* 🎨 Interface minimalista inspirada no portal **The News**.
 
 ---
 
@@ -98,12 +97,6 @@ http://localhost:3000
 Este projeto teve como objetivo colocar em prática os principais recursos do **Next.js App Router**, desenvolvendo um blog com conteúdo dinâmico, organização por categorias e páginas otimizadas para mecanismos de busca.
 
 Além dos conceitos do framework, o projeto também reforça boas práticas de organização de componentes, separação de responsabilidades e estruturação de aplicações modernas em React.
-
----
-
-## 📷 Preview
-
-> Adicione aqui uma imagem ou GIF do projeto em funcionamento.
 
 ---
 
