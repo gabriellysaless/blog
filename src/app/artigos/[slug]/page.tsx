@@ -1,4 +1,3 @@
-import Title from "@/components/Title";
 import { getArticleBySlug } from "@/lib/tratamento-artigos";
 import { Metadata } from "next";
 import Link from "next/link";

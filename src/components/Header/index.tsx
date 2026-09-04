@@ -1,5 +1,4 @@
 import Link from "next/link";
-import Title from "../Title";
 import styles from "./Header.module.css"
 
 const Header = () => {
