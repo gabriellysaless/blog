@@ -5,7 +5,8 @@ import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
   title: "A Notícia.",
-  description: "Descubra quais as notícias do momento. Notícias do mundo, Brasil, tecnologia e muito mais!",
+  description:
+    "Descubra quais as notícias do momento. Notícias do mundo, Brasil, tecnologia e muito mais!",
 };
 
 export default function RootLayout({
@@ -16,9 +17,9 @@ export default function RootLayout({
   return (
     <html lang="pt-BR">
       <body>
-        <Header/>
+        <Header />
         {children}
-        <Footer/>
+        <Footer />
       </body>
     </html>
   );

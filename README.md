@@ -8,22 +8,22 @@ O projeto foi desenvolvido como exercício prático para consolidar conceitos av
 
 ## 🚀 Tecnologias Utilizadas
 
-* Next.js (App Router)
-* React
-* TypeScript
-* CSS Modules
+- Next.js (App Router)
+- React
+- TypeScript
+- CSS Modules
 
 ---
 
 ## ✨ Funcionalidades
 
-* 📰 Listagem de artigos na página inicial.
-* 📂 Navegação por categorias.
-* 🔗 Rotas dinâmicas para cada artigo.
-* 📄 Carregamento de dados a partir de um arquivo JSON local.
-* ⚡ Renderização utilizando Server Components.
-* 🔍 SEO dinâmico com `generateMetadata`.
-* 📱 Layout responsivo.
+- 📰 Listagem de artigos na página inicial.
+- 📂 Navegação por categorias.
+- 🔗 Rotas dinâmicas para cada artigo.
+- 📄 Carregamento de dados a partir de um arquivo JSON local.
+- ⚡ Renderização utilizando Server Components.
+- 🔍 SEO dinâmico com `generateMetadata`.
+- 📱 Layout responsivo.
 
 ---
 
@@ -45,16 +45,16 @@ app/
 
 ## 📚 Conceitos Praticados
 
-* App Router
-* Rotas Dinâmicas
-* Server Components
-* Data Fetching
-* `generateStaticParams`
-* `generateMetadata`
-* SEO para aplicações Next.js
-* Componentização
-* CSS Modules
-* Organização de projetos
+- App Router
+- Rotas Dinâmicas
+- Server Components
+- Data Fetching
+- `generateStaticParams`
+- `generateMetadata`
+- SEO para aplicações Next.js
+- Componentização
+- CSS Modules
+- Organização de projetos
 
 ---
 
@@ -104,4 +104,4 @@ Além dos conceitos do framework, o projeto também reforça boas práticas de o
 
 **Gabrielly Oliveira Sales Almeida**
 
-* GitHub: https://github.com/gabriellysaless
+- GitHub: https://github.com/gabriellysaless

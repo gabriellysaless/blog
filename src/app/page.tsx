@@ -5,7 +5,6 @@ import Grid from "@/components/Grid";
 import { getAllArticles } from "@/lib/tratamento-artigos";
 
 export default async function Home() {
-
   const artigos = await getAllArticles();
 
   return (
@@ -14,4 +13,4 @@ export default async function Home() {
       <Grid artigos={artigos}></Grid>
     </div>
   );
-};
+}

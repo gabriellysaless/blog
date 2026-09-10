@@ -6,8 +6,10 @@ export const artigos = [
     titulo: "Tensões globais aumentam debate sobre segurança internacional",
     autor: "Redação NewsBlog",
     data: "2026-07-01",
-    description: "Países reforçam diálogos diplomáticos diante de novos desafios globais.",
-    conteudo: "Líderes internacionais têm intensificado reuniões para discutir segurança, cooperação econômica e estabilidade política. Especialistas apontam que o diálogo entre países será essencial para evitar novos conflitos e fortalecer acordos internacionais."
+    description:
+      "Países reforçam diálogos diplomáticos diante de novos desafios globais.",
+    conteudo:
+      "Líderes internacionais têm intensificado reuniões para discutir segurança, cooperação econômica e estabilidade política. Especialistas apontam que o diálogo entre países será essencial para evitar novos conflitos e fortalecer acordos internacionais.",
   },
   {
     id: 2,
@@ -16,8 +18,10 @@ export const artigos = [
     titulo: "Mudanças climáticas impactam cidades costeiras",
     autor: "Marina Lopes",
     data: "2026-06-28",
-    description: "Cidades próximas ao mar buscam soluções para enfrentar eventos climáticos extremos.",
-    conteudo: "Governos locais estudam novas estratégias para proteger regiões costeiras contra enchentes, aumento do nível do mar e tempestades mais intensas. Projetos de infraestrutura verde vêm ganhando destaque como alternativa sustentável."
+    description:
+      "Cidades próximas ao mar buscam soluções para enfrentar eventos climáticos extremos.",
+    conteudo:
+      "Governos locais estudam novas estratégias para proteger regiões costeiras contra enchentes, aumento do nível do mar e tempestades mais intensas. Projetos de infraestrutura verde vêm ganhando destaque como alternativa sustentável.",
   },
   {
     id: 3,
@@ -26,8 +30,10 @@ export const artigos = [
     titulo: "Educação global aposta em ferramentas digitais",
     autor: "Carlos Mendes",
     data: "2026-06-25",
-    description: "Tecnologia transforma o acesso ao ensino em diferentes países.",
-    conteudo: "Plataformas digitais, aulas remotas e inteligência artificial estão mudando a forma como estudantes aprendem. Apesar dos avanços, a desigualdade no acesso à internet ainda é um dos principais desafios."
+    description:
+      "Tecnologia transforma o acesso ao ensino em diferentes países.",
+    conteudo:
+      "Plataformas digitais, aulas remotas e inteligência artificial estão mudando a forma como estudantes aprendem. Apesar dos avanços, a desigualdade no acesso à internet ainda é um dos principais desafios.",
   },
   {
     id: 4,
@@ -36,8 +42,10 @@ export const artigos = [
     titulo: "Turismo internacional retoma crescimento",
     autor: "Ana Ribeiro",
     data: "2026-06-20",
-    description: "Setor turístico mostra recuperação com aumento na procura por viagens.",
-    conteudo: "Agências e companhias aéreas registram maior procura por destinos internacionais. A retomada do turismo também movimenta hotéis, restaurantes e pequenos negócios ligados ao setor."
+    description:
+      "Setor turístico mostra recuperação com aumento na procura por viagens.",
+    conteudo:
+      "Agências e companhias aéreas registram maior procura por destinos internacionais. A retomada do turismo também movimenta hotéis, restaurantes e pequenos negócios ligados ao setor.",
   },
 
   {
@@ -47,8 +55,10 @@ export const artigos = [
     titulo: "Brasil investe em infraestrutura urbana",
     autor: "João Pereira",
     data: "2026-07-01",
-    description: "Projetos buscam melhorar mobilidade, saneamento e espaços públicos.",
-    conteudo: "Novos investimentos em infraestrutura urbana pretendem melhorar a qualidade de vida nas cidades brasileiras. Entre as prioridades estão transporte público, saneamento básico e revitalização de áreas urbanas."
+    description:
+      "Projetos buscam melhorar mobilidade, saneamento e espaços públicos.",
+    conteudo:
+      "Novos investimentos em infraestrutura urbana pretendem melhorar a qualidade de vida nas cidades brasileiras. Entre as prioridades estão transporte público, saneamento básico e revitalização de áreas urbanas.",
   },
   {
     id: 6,
@@ -57,8 +67,10 @@ export const artigos = [
     titulo: "Educação técnica ganha força no mercado brasileiro",
     autor: "Fernanda Costa",
     data: "2026-06-27",
-    description: "Cursos técnicos se destacam como caminho rápido para o mercado de trabalho.",
-    conteudo: "A busca por formação técnica tem crescido no Brasil. Empresas valorizam profissionais com habilidades práticas, especialmente nas áreas de tecnologia, indústria, elétrica e manutenção."
+    description:
+      "Cursos técnicos se destacam como caminho rápido para o mercado de trabalho.",
+    conteudo:
+      "A busca por formação técnica tem crescido no Brasil. Empresas valorizam profissionais com habilidades práticas, especialmente nas áreas de tecnologia, indústria, elétrica e manutenção.",
   },
   {
     id: 7,
@@ -67,8 +79,10 @@ export const artigos = [
     titulo: "Pequenos negócios ampliam presença digital",
     autor: "Rafael Lima",
     data: "2026-06-24",
-    description: "Empreendedores brasileiros usam redes sociais e sites para vender mais.",
-    conteudo: "Pequenos negócios estão investindo cada vez mais em presença online. Sites, lojas virtuais e redes sociais se tornaram ferramentas importantes para atrair clientes e fortalecer marcas locais."
+    description:
+      "Empreendedores brasileiros usam redes sociais e sites para vender mais.",
+    conteudo:
+      "Pequenos negócios estão investindo cada vez mais em presença online. Sites, lojas virtuais e redes sociais se tornaram ferramentas importantes para atrair clientes e fortalecer marcas locais.",
   },
   {
     id: 8,
@@ -78,7 +92,8 @@ export const artigos = [
     autor: "Patrícia Gomes",
     data: "2026-06-18",
     description: "Fontes limpas ganham espaço na matriz energética brasileira.",
-    conteudo: "A geração de energia solar e eólica continua crescendo no Brasil. O avanço dessas fontes contribui para uma matriz energética mais sustentável e abre oportunidades para novos profissionais."
+    conteudo:
+      "A geração de energia solar e eólica continua crescendo no Brasil. O avanço dessas fontes contribui para uma matriz energética mais sustentável e abre oportunidades para novos profissionais.",
   },
 
   {
@@ -88,8 +103,10 @@ export const artigos = [
     titulo: "Inteligência artificial transforma rotina das empresas",
     autor: "Lucas Martins",
     data: "2026-07-02",
-    description: "Ferramentas de IA ajudam empresas a automatizar tarefas e analisar dados.",
-    conteudo: "Empresas de diferentes setores estão adotando inteligência artificial para otimizar processos, melhorar atendimento e apoiar decisões estratégicas. O uso responsável da tecnologia também se tornou tema importante."
+    description:
+      "Ferramentas de IA ajudam empresas a automatizar tarefas e analisar dados.",
+    conteudo:
+      "Empresas de diferentes setores estão adotando inteligência artificial para otimizar processos, melhorar atendimento e apoiar decisões estratégicas. O uso responsável da tecnologia também se tornou tema importante.",
   },
   {
     id: 10,
@@ -98,8 +115,10 @@ export const artigos = [
     titulo: "Desenvolvimento web segue em alta",
     autor: "Beatriz Nunes",
     data: "2026-06-30",
-    description: "Mercado procura profissionais capazes de criar sites e aplicações modernas.",
-    conteudo: "O desenvolvimento web continua sendo uma das áreas mais procuradas da tecnologia. Conhecimentos em HTML, CSS, JavaScript, React e Next.js são valorizados em projetos profissionais."
+    description:
+      "Mercado procura profissionais capazes de criar sites e aplicações modernas.",
+    conteudo:
+      "O desenvolvimento web continua sendo uma das áreas mais procuradas da tecnologia. Conhecimentos em HTML, CSS, JavaScript, React e Next.js são valorizados em projetos profissionais.",
   },
   {
     id: 11,
@@ -109,7 +128,8 @@ export const artigos = [
     autor: "Felipe Rocha",
     data: "2026-06-26",
     description: "Empresas reforçam cuidados para proteger dados e sistemas.",
-    conteudo: "Com o aumento dos serviços digitais, a segurança da informação ganhou ainda mais importância. Boas práticas como senhas fortes, autenticação em dois fatores e backups são essenciais."
+    conteudo:
+      "Com o aumento dos serviços digitais, a segurança da informação ganhou ainda mais importância. Boas práticas como senhas fortes, autenticação em dois fatores e backups são essenciais.",
   },
   {
     id: 12,
@@ -118,8 +138,10 @@ export const artigos = [
     titulo: "Apps mobile facilitam serviços do dia a dia",
     autor: "Camila Torres",
     data: "2026-06-21",
-    description: "Aplicativos seguem transformando consumo, comunicação e produtividade.",
-    conteudo: "Aplicativos para celular estão presentes em bancos, compras, transporte, saúde e educação. A praticidade dos apps aumenta a demanda por interfaces simples, rápidas e acessíveis."
+    description:
+      "Aplicativos seguem transformando consumo, comunicação e produtividade.",
+    conteudo:
+      "Aplicativos para celular estão presentes em bancos, compras, transporte, saúde e educação. A praticidade dos apps aumenta a demanda por interfaces simples, rápidas e acessíveis.",
   },
 
   {
@@ -129,8 +151,10 @@ export const artigos = [
     titulo: "Empreendedorismo digital cresce entre jovens",
     autor: "Renato Alves",
     data: "2026-07-01",
-    description: "Novos empreendedores usam tecnologia para criar negócios online.",
-    conteudo: "Jovens empreendedores têm apostado em lojas virtuais, prestação de serviços digitais e criação de conteúdo. A internet reduziu barreiras de entrada e ampliou oportunidades de negócio."
+    description:
+      "Novos empreendedores usam tecnologia para criar negócios online.",
+    conteudo:
+      "Jovens empreendedores têm apostado em lojas virtuais, prestação de serviços digitais e criação de conteúdo. A internet reduziu barreiras de entrada e ampliou oportunidades de negócio.",
   },
   {
     id: 14,
@@ -139,8 +163,10 @@ export const artigos = [
     titulo: "Empresas investem em experiência do cliente",
     autor: "Juliana Castro",
     data: "2026-06-29",
-    description: "Atendimento rápido e personalizado se torna diferencial competitivo.",
-    conteudo: "Negócios de vários tamanhos estão revendo seus canais de atendimento. O foco é oferecer uma experiência mais simples, humanizada e eficiente para fidelizar consumidores."
+    description:
+      "Atendimento rápido e personalizado se torna diferencial competitivo.",
+    conteudo:
+      "Negócios de vários tamanhos estão revendo seus canais de atendimento. O foco é oferecer uma experiência mais simples, humanizada e eficiente para fidelizar consumidores.",
   },
   {
     id: 15,
@@ -149,8 +175,10 @@ export const artigos = [
     titulo: "Gestão de processos ajuda empresas a crescer",
     autor: "André Souza",
     data: "2026-06-23",
-    description: "Organização interna melhora produtividade e reduz desperdícios.",
-    conteudo: "Empresas que documentam processos e acompanham indicadores conseguem tomar decisões mais rápidas. A organização interna é um passo importante para crescer com sustentabilidade."
+    description:
+      "Organização interna melhora produtividade e reduz desperdícios.",
+    conteudo:
+      "Empresas que documentam processos e acompanham indicadores conseguem tomar decisões mais rápidas. A organização interna é um passo importante para crescer com sustentabilidade.",
   },
   {
     id: 16,
@@ -160,7 +188,8 @@ export const artigos = [
     autor: "Larissa Freitas",
     data: "2026-06-19",
     description: "Sites, redes sociais e conteúdo digital fortalecem negócios.",
-    conteudo: "Ter presença online deixou de ser opcional para muitas marcas. Um site bem estruturado transmite confiança, melhora a comunicação e ajuda clientes a encontrar informações com facilidade."
+    conteudo:
+      "Ter presença online deixou de ser opcional para muitas marcas. Um site bem estruturado transmite confiança, melhora a comunicação e ajuda clientes a encontrar informações com facilidade.",
   },
 
   {
@@ -170,8 +199,10 @@ export const artigos = [
     titulo: "Educação financeira ganha espaço nas famílias",
     autor: "Sofia Almeida",
     data: "2026-07-02",
-    description: "Organização do orçamento se torna prioridade para consumidores.",
-    conteudo: "Famílias têm buscado mais informações sobre planejamento financeiro, controle de gastos e consumo consciente. A educação financeira ajuda a tomar decisões melhores no dia a dia."
+    description:
+      "Organização do orçamento se torna prioridade para consumidores.",
+    conteudo:
+      "Famílias têm buscado mais informações sobre planejamento financeiro, controle de gastos e consumo consciente. A educação financeira ajuda a tomar decisões melhores no dia a dia.",
   },
   {
     id: 18,
@@ -180,8 +211,10 @@ export const artigos = [
     titulo: "Mercado de trabalho valoriza novas habilidades",
     autor: "Daniel Barbosa",
     data: "2026-06-28",
-    description: "Profissionais buscam capacitação para acompanhar mudanças econômicas.",
-    conteudo: "O mercado de trabalho está exigindo profissionais mais adaptáveis. Habilidades digitais, comunicação, análise de dados e aprendizado contínuo são cada vez mais valorizados."
+    description:
+      "Profissionais buscam capacitação para acompanhar mudanças econômicas.",
+    conteudo:
+      "O mercado de trabalho está exigindo profissionais mais adaptáveis. Habilidades digitais, comunicação, análise de dados e aprendizado contínuo são cada vez mais valorizados.",
   },
   {
     id: 19,
@@ -190,8 +223,10 @@ export const artigos = [
     titulo: "Consumo consciente influencia economia local",
     autor: "Paula Martins",
     data: "2026-06-22",
-    description: "Consumidores buscam comprar melhor e apoiar pequenos negócios.",
-    conteudo: "O consumo consciente incentiva escolhas mais planejadas e sustentáveis. Comprar de produtores locais também fortalece a economia da região e gera impacto positivo na comunidade."
+    description:
+      "Consumidores buscam comprar melhor e apoiar pequenos negócios.",
+    conteudo:
+      "O consumo consciente incentiva escolhas mais planejadas e sustentáveis. Comprar de produtores locais também fortalece a economia da região e gera impacto positivo na comunidade.",
   },
   {
     id: 20,
@@ -200,7 +235,9 @@ export const artigos = [
     titulo: "Planejamento financeiro ajuda pequenas empresas",
     autor: "Gustavo Vieira",
     data: "2026-06-17",
-    description: "Controle de custos e previsão de receitas ajudam negócios a se manterem saudáveis.",
-    conteudo: "Pequenas empresas que acompanham receitas, despesas e fluxo de caixa conseguem se preparar melhor para períodos de instabilidade. O planejamento financeiro é essencial para decisões seguras."
-  }
+    description:
+      "Controle de custos e previsão de receitas ajudam negócios a se manterem saudáveis.",
+    conteudo:
+      "Pequenas empresas que acompanham receitas, despesas e fluxo de caixa conseguem se preparar melhor para períodos de instabilidade. O planejamento financeiro é essencial para decisões seguras.",
+  },
 ];
