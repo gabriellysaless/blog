@@ -6,6 +6,12 @@ O projeto foi desenvolvido como exercício prático para consolidar conceitos av
 
 ---
 
+## 🌎 Visualize online na Vercel
+
+https://blog-inky-nine-91.vercel.app/
+
+---
+
 ## 🚀 Tecnologias Utilizadas
 
 - Next.js (App Router)
