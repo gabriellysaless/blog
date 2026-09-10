@@ -1,0 +1,84 @@
+# Nome do workflow que vai aparecer no "Actions"
+name: Pipeline Blog
+run-name: ${{ github.actor }} is learning GitHub Actions
+# Definir quando o Pipeline será disparado
+on: 
+  push:
+    branches:
+      - main
+    paths: # só dispara se arquivos nessa pasta mudarem
+      - "src/**"
+      - ".github/workflows/**" # mudanças nos próprios pipelines
+  workflow_dispatch: # habilitar "run workflow" no GitHub Actions
+  
+jobs:
+  # Primeiro job: build
+  build:
+    runs-on: ubuntu-latest #Imagem da máquina usada no CI
+    
+    steps:
+      - name: Checkout do Código
+        uses: actions/checkout@v6
+        
+      - name: Instalação do Node
+        uses: actions/setup-node@v7
+        with:
+          node-version: '24'
+          cache: "npm"
+          
+      - name: Instalação das Dependências
+        run: npm install
+
+      - name: Rodar o Build
+        run: npm run build
+
+  # Segundo job: tests
+  tests:
+    runs-on: ubuntu-latest #Imagem da máquina usada no CI
+    needs: build
+    
+    steps:
+      - name: Checkout do Código
+        uses: actions/checkout@v6
+        
+      - name: Instalação do Node
+        uses: actions/setup-node@v7
+        with:
+          node-version: '24'
+          cache: "npm"
+
+      - name: Instalação das Dependências
+        run: npm install
+
+      - name: Rodar lint
+        run: npm run lint
+
+      - name: Verificar format
+        run: npm run format -- --check
+
+      - name: Rodar testes
+        run: npm run test
+
+  # Terceiro job: deploy
+  deploy:
+    runs-on: ubuntu-latest #Imagem da máquina usada no CI
+    needs: tests
+      
+    steps:
+      - name: Checkout do Código
+        uses: actions/checkout@v6
+          
+      - name: Instalação do Node
+        uses: actions/setup-node@v7
+        with:
+          node-version: '24'
+          cache: "npm"
+  
+      - name: Instalação Vercel CLI
+        run: npm install -g vercel@latest
+  
+      - name: Deploy para Vercel
+        run: vercel --prod --yes --token=${{ secrets.VERCEL_TOKEN }}
+        env: 
+          VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
+          VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
