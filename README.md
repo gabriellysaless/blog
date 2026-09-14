@@ -16,12 +16,13 @@ https://blog-inky-nine-91.vercel.app/
 
 O pipeline aparece na aba **Actions** deste repositório.
 
-As etapas executadas pelo pipeline são: 
+As etapas executadas pelo pipeline são:
+
 - Build (verifica se o projeto pode ser compilado corretamente).
 - Testes (executa o lint, verifica a formatação do código e executa os testes automatizados).
 - Deploy(publica a aplicação na Vercel após todas as validações serem concluídas com sucesso).
 
-Na aba Actions, é possível acompanhar a execução do pipeline e identificar se cada etapa foi concluída com sucesso. Caso alguma etapa falhe, o GitHub Actions apresenta os detalhes do erro para facilitar a identificação do problema. 
+Na aba Actions, é possível acompanhar a execução do pipeline e identificar se cada etapa foi concluída com sucesso. Caso alguma etapa falhe, o GitHub Actions apresenta os detalhes do erro para facilitar a identificação do problema.
 
 ---
 

@@ -2,27 +2,27 @@
 name: Pipeline Blog
 run-name: ${{ github.actor }} is learning GitHub Actions
 # Definir quando o Pipeline será disparado
-on: 
+on:
   push:
     branches:
       - main
   workflow_dispatch: # habilitar "run workflow" no GitHub Actions
-  
+
 jobs:
   # Primeiro job: build
   build:
     runs-on: ubuntu-latest #Imagem da máquina usada no CI
-    
+
     steps:
       - name: Checkout do Código
         uses: actions/checkout@v6
-        
+
       - name: Instalação do Node
         uses: actions/setup-node@v7
         with:
-          node-version: '24'
+          node-version: "24"
           cache: "npm"
-          
+
       - name: Instalação das Dependências
         run: npm install
 
@@ -33,15 +33,15 @@ jobs:
   tests:
     runs-on: ubuntu-latest #Imagem da máquina usada no CI
     needs: build
-    
+
     steps:
       - name: Checkout do Código
         uses: actions/checkout@v6
-        
+
       - name: Instalação do Node
         uses: actions/setup-node@v7
         with:
-          node-version: '24'
+          node-version: "24"
           cache: "npm"
 
       - name: Instalação das Dependências
@@ -60,22 +60,22 @@ jobs:
   deploy:
     runs-on: ubuntu-latest #Imagem da máquina usada no CI
     needs: tests
-      
+
     steps:
       - name: Checkout do Código
         uses: actions/checkout@v6
-          
+
       - name: Instalação do Node
         uses: actions/setup-node@v7
         with:
-          node-version: '24'
+          node-version: "24"
           cache: "npm"
-  
+
       - name: Instalação Vercel CLI
         run: npm install -g vercel@latest
-  
+
       - name: Deploy para Vercel
         run: vercel --prod --yes --token=${{ secrets.VERCEL_TOKEN }}
-        env: 
+        env:
           VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
           VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
