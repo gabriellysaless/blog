@@ -6,9 +6,6 @@ on:
   push:
     branches:
       - main
-    paths: # só dispara se arquivos nessa pasta mudarem
-      - "src/**"
-      - ".github/workflows/**" # mudanças nos próprios pipelines
   workflow_dispatch: # habilitar "run workflow" no GitHub Actions
   
 jobs:
