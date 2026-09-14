@@ -2,13 +2,26 @@
 
 Um blog desenvolvido com **Next.js App Router** que exibe artigos organizados por categorias, utilizando rotas dinâmicas, renderização no servidor e boas práticas de SEO.
 
-O projeto foi desenvolvido como exercício prático para consolidar conceitos avançados do **Next.js**, como Server Components, Data Fetching, rotas dinâmicas e geração de metadados para SEO.
+O projeto foi desenvolvido como exercício prático para consolidar conceitos avançados do **Next.js**, como Server Components, Data Fetching, rotas dinâmicas e geração de metadados para SEO. Também é um projeto para desenvolver habilidades com Pipelines CI/CD
 
 ---
 
 ## 🌎 Visualize online na Vercel
 
 https://blog-inky-nine-91.vercel.app/
+
+---
+
+## 💻 Acessando o Pipeline
+
+O pipeline aparece na aba **Actions** deste repositório.
+
+As etapas executadas pelo pipeline são: 
+- Build (verifica se o projeto pode ser compilado corretamente).
+- Testes (executa o lint, verifica a formatação do código e executa os testes automatizados).
+- Deploy(publica a aplicação na Vercel após todas as validações serem concluídas com sucesso).
+
+Na aba Actions, é possível acompanhar a execução do pipeline e identificar se cada etapa foi concluída com sucesso. Caso alguma etapa falhe, o GitHub Actions apresenta os detalhes do erro para facilitar a identificação do problema. 
 
 ---
 
@@ -33,6 +46,21 @@ https://blog-inky-nine-91.vercel.app/
 
 ---
 
+## 📚 Conceitos Praticados
+
+- App Router
+- Rotas Dinâmicas
+- Server Components
+- Data Fetching
+- `generateStaticParams`
+- `generateMetadata`
+- SEO para aplicações Next.js
+- Componentização
+- CSS Modules
+- Organização de projetos
+
+---
+
 ## 📂 Estrutura do Projeto
 
 ```text
@@ -46,21 +74,6 @@ app/
 ├── lib/
 └── page.tsx
 ```
-
----
-
-## 📚 Conceitos Praticados
-
-- App Router
-- Rotas Dinâmicas
-- Server Components
-- Data Fetching
-- `generateStaticParams`
-- `generateMetadata`
-- SEO para aplicações Next.js
-- Componentização
-- CSS Modules
-- Organização de projetos
 
 ---
 
