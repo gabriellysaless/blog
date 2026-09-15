@@ -83,7 +83,7 @@ app/
 Clone o repositório:
 
 ```bash
-git clone https://github.com/SEU-USUARIO/SEU-REPOSITORIO.git
+git clone https://github.com/gabriellysaless/blog.git
 ```
 
 Acesse a pasta do projeto:
