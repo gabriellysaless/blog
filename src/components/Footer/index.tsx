@@ -10,8 +10,8 @@ const Footer = () => {
 
         <p className={styles.footer__notice}>
           Aviso: este site é um projeto demonstrativo. Todas as notícias e
-          informações publicadas são fictícias e foram criadas apenas para
-          fins de demonstração. Não representam acontecimentos reais.
+          informações publicadas são fictícias e foram criadas apenas para fins
+          de demonstração. Não representam acontecimentos reais.
         </p>
 
         <div className={styles.footer__bottom}>
@@ -26,4 +26,3 @@ const Footer = () => {
 };
 
 export default Footer;
-

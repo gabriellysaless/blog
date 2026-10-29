@@ -30,7 +30,7 @@ export default async function Categoria({ params }: Props) {
 
   return (
     <div className={styles.categoria}>
-      <Title title={categoria.charAt(0).toUpperCase() + categoria.slice(1)}/>
+      <Title title={categoria.charAt(0).toUpperCase() + categoria.slice(1)} />
       <Grid artigos={artigos} />
     </div>
   );
