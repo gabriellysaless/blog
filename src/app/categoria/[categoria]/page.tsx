@@ -3,6 +3,7 @@ import { getArticlesByCategory } from "@/lib/tratamento-artigos";
 import { Metadata } from "next";
 import { notFound } from "next/navigation";
 import styles from "./Categoria.module.css";
+import Title from "@/components/Title";
 
 type Props = {
   params: {
@@ -29,6 +30,7 @@ export default async function Categoria({ params }: Props) {
 
   return (
     <div className={styles.categoria}>
+      <Title title={categoria.charAt(0).toUpperCase() + categoria.slice(1)}/>
       <Grid artigos={artigos} />
     </div>
   );

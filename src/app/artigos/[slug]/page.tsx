@@ -41,13 +41,13 @@ export default async function DetalheArtigo({ params }: Props) {
 
   return (
     <div className={styles.container}>
-      <h1 className={styles.container__title}>{titulo}</h1>
       <Link className={styles.container__link} href={`/categoria/${categoria}`}>
         Voltar
       </Link>
+      <h1 className={styles.container__title}>{titulo}</h1>
       <p className={styles.container__info}>Artigo escrito por {autor}</p>
       <p className={styles.container__date}>{data}</p>
-      <p>{conteudo}</p>
+      <p className={styles.container__content}>{conteudo}</p>
     </div>
   );
 }

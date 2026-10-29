@@ -1,10 +1,11 @@
 .categoria {
-  max-width: 500px;
-  margin: 5px auto;
+  width: min(100% - 2rem, 1200px);
+  min-height: 60vh;
+  margin: 2rem auto 3rem;
 }
 
-@media (min-width: 768px) {
+@media (max-width: 599px) {
   .categoria {
-    max-width: 1000px;
+    margin-top: 1.25rem;
   }
 }
