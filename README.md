@@ -8,7 +8,13 @@ O projeto foi desenvolvido como exercício prático para consolidar conceitos av
 
 ## 🌎 Visualize online na Vercel
 
-https://blog-inky-nine-91.vercel.app/
+[Acessar o site](https://blog-inky-nine-91.vercel.app/)
+
+---
+
+## 🖥️ Prévia do projeto
+
+![Página inicial do blog A Notícia](./screenshots/home.png)
 
 ---
 
@@ -89,7 +95,7 @@ git clone https://github.com/gabriellysaless/blog.git
 Acesse a pasta do projeto:
 
 ```bash
-cd nome-do-projeto
+cd blog
 ```
 
 Instale as dependências:
